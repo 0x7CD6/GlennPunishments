@@ -1,0 +1,120 @@
+# GlennPunishments Basic Configuration
+Names:
+  Button1: XRay/Visual Hacks
+  Button2: Movement Hacks
+  Button3: Aimbot
+  Button4: Bot Hacks
+  Button5: ESP/Rendering Hacks
+  Button6: Exploiting
+  Button7: Griefing
+  Button8: Staff Impersonation/Disrespect
+  Button9: Advertising/Other/Minor Offenses
+  Button10: Manual 24 hour
+  Button11: Manual 3 day
+  Button12: Manual 7 day
+  Button13: Manual 14 day
+  Button14: Manual 90 day
+  Button15: Manual 180 day
+  Button16: Active Client WO/ Malicious Intent
+  Button17: Client Rendering Hacks
+  Button18: Permanent Ban
+  Button19: 'Toxic'
+  Button20: 'Inappropraite username/skin'
+  Button21: 'Swearing/Bad Language'
+  Button22: 'Targeted Disrespect'
+  Button23: ''
+  Button24: ''
+  Button25: ''
+  Button26: 'IP Mute'
+  Button27: 'IP Ban'
+Messages:
+  NoAccess: Sorry, you do not have access to that command!
+  InvalidUsage: '&3&lPunishments &8&l>> &7Usage: &c/punish <target>&7.'
+  InvalidUsageReport: '&3&lReports &8&l>> &7Usage: &c/report <player>&7.'
+  ReloadMessage: 'The config file has been reloaded!'
+  GUItitle: 'Punish %player%'
+  GUIcancel: '&c&lCancelled punishment.'
+  PlayerNotFound: '&cPlayer not found!'
+  NotStaff: '&8You are not GlennMC Staff!'
+PunishmentMessages:
+  Button1: Usage of XRay/Visual Hacks
+  Button2: Usage of Movement Hacks
+  Button3: Usage of Aimbot Hacks
+  Button4: Usage of Bot Hacks
+  Button5: Usage of ESP Hacks
+  Button6: Usage of Exploits
+  Button7: Griefing
+  Button8: Staff Impersonation/Disrepect
+  Button9: Advertising/Other/Minor Offenses
+  Button10: 'Manual: None Categorised'
+  Button11: 'Manual: None Categorised'
+  Button12: 'Manual: None Categorised'
+  Button13: 'Manual: None Categorised'
+  Button14: 'Manual: None Categorised'
+  Button15: 'Manual: None Categorised'
+  Button16: Hack Client Without Malicious Intent
+  Button17: Client Rendering Hacks
+  Button18: Permanently Banned
+  Button19: 'Toxic'
+  Button20: 'Inappropriate username/skin'
+  Button21: 'Swearing/Inappropriate language'
+  Button22: 'Targeted Disrespect'
+  Button23: ''
+  Button24: ''
+  Button25: ''
+  Button26: 'IP Mute'
+  Button27: 'IP Ban'
+PunishmentTimes:
+  Button1: '14 days'
+  Button2: '14 days'
+  Button3: '14 days'
+  Button4: '7 days'
+  Button5: '7 days'
+  Button6: '7 days'
+  Button7: '7 days'
+  Button8: '3 days'
+  Button9: '3 days'
+  Button10: '24 hours'
+  Button11: '3 days'
+  Button12: '7 days'
+  Button13: '14 days'
+  Button14: '90 days'
+  Button15: '1 hour'
+  Button16: '24 hours'
+  Button17: '24 hours'
+  Button18: '' # Leave empty for perm/kick
+  Button19: '' # Leave empty for perm/kick
+  Button20: '' # Leave empty for perm/kick
+  Button21: '3 hours'
+  Button22: '24 hours'
+  Button23: ''
+  Button24: ''
+  Button25: ''
+  Button26: ''
+  Button27: ''
+Reports:
+  Button1: 'Hacking'
+  Button2: 'Chat Offenses'
+  Button3: 'Bug Exploits'
+  Button4: 'Team Trolling'
+  Button5: 'Threats'
+  Button6: 'Abuse'
+  Button7: 'Griefing'
+  Button8: 'Game Crashing'
+  Button9: 'Other'
+ReportLores:
+  Button1: 'Report the player for hacking!'
+  Button2: 'Report the player for chat offenses!'
+  Button3: 'Report the player for bug exploits!'
+  Button4: 'Report the player for team trolling!'
+  Button5: 'Report the player for threats!'
+  Button6: 'Report the player for abuse!'
+  Button7: 'Report the player for griefing!'
+  Button8: 'Report the player for game crashing!'
+  Button9: 'Report the player for other (Please also report player on forums)'
+BroadcastMessage:
+  Message: '&9&lPunishments &8&l>> &7The player &c%player% &7has been banned &7by &c%author% &7for &c%reason%!'
+OnPunishedCommand:
+  Command: 'smite %player%'
+Prefix: '&9&lPunishments &8&l>> &r'
+PrefixReport: '93&lReports &8&l>> &r'

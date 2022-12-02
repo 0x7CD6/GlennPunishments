@@ -1,0 +1,22 @@
+main: net.glennmc.core.Main
+version: 1.0
+name: Glenn
+description: GlennMC Core.
+author: Arianna [0x7CD6]
+commands:
+  punish:
+    usage: /punish <player>
+    description: Opens a GUI with options to punish a player
+  gpreload:
+    usage: /gpreload
+    description: Reloads the configuration file
+  report:
+    usage: /report <player>
+    description: Reports a player
+  gamemode:
+    usage: /gamemode <option>
+    description: Change a users gamemode
+    aliases: [gm]
+  fly:
+    usage: /fly
+    description: Change a users flight

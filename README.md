@@ -1,0 +1,4 @@
+->> Requirements <<-
+- Any type of permission plugin
+- Spigot (I've used 1.12.1 as a base however any version above 1.8 should work)
+- Common sense.
